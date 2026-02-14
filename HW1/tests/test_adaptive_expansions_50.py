@@ -1,3 +1,5 @@
+# this test measures node expansions for Forward A* across 50 grids to 
+# baseline its efficiency against Adaptive A*.
 import glob
 from src.grid import Grid
 from src.adaptive_astar import adaptive_forward_astar_with_expansions
